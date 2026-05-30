@@ -296,9 +296,6 @@
 			"path" : "C:/Program Files/JetBrains/CLion 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/stepscript.cmake.in"
 		},
 		{
-			"path" : "LightYears/CMakeLists.txt"
-		},
-		{
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/_deps/sfml-src/CMakeLists.txt"
 		},
@@ -1888,6 +1885,9 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "LightYears/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

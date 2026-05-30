@@ -134,139 +134,6 @@ build install/strip: phony CMakeFiles/install/strip.util
 # C:/Software/C++/LightYears/CMakeLists.txt
 # =============================================================================
 
-# =============================================================================
-# Object build statements for EXECUTABLE target LightYearsGame
-
-
-#############################################
-# Order-only phony target for LightYearsGame
-
-build cmake_object_order_depends_target_LightYearsGame: phony || cmake_object_order_depends_target_FLAC cmake_object_order_depends_target_freetype cmake_object_order_depends_target_harfbuzz cmake_object_order_depends_target_ogg cmake_object_order_depends_target_sfml-audio cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window cmake_object_order_depends_target_vorbis cmake_object_order_depends_target_vorbisenc cmake_object_order_depends_target_vorbisfile
-
-build LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj: CXX_COMPILER__LightYearsGame_unscanned_Debug C$:/Software/C++/LightYears/LightYears/src/main.cpp || cmake_object_order_depends_target_LightYearsGame
-  CONFIG = Debug
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.d
-  FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
-  OBJECT_FILE_DIR = LightYears\CMakeFiles\LightYearsGame.dir\src
-  TARGET_SUPPORT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target LightYearsGame
-
-
-#############################################
-# Link the executable LightYears\LightYearsGame.exe
-
-build LightYears/LightYearsGame.exe: CXX_EXECUTABLE_LINKER__LightYearsGame_Debug LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-audio-s-d.a _deps/sfml-build/lib/libharfbuzzd.a _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libvorbisfiled.a _deps/sfml-build/lib/libvorbisencd.a _deps/sfml-build/lib/libvorbisd.a _deps/sfml-build/lib/libFLACd.a _deps/sfml-build/lib/liboggd.a || _deps/sfml-build/lib/libFLACd.a _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libharfbuzzd.a _deps/sfml-build/lib/liboggd.a _deps/sfml-build/lib/libsfml-audio-s-d.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libvorbisd.a _deps/sfml-build/lib/libvorbisencd.a _deps/sfml-build/lib/libvorbisfiled.a
-  CONFIG = Debug
-  FLAGS = -g
-  LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  _deps/sfml-build/lib/libsfml-audio-s-d.a  -lopengl32  -lgdi32  _deps/sfml-build/lib/libharfbuzzd.a  _deps/sfml-build/lib/libfreetyped.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lwinmm  _deps/sfml-build/lib/libvorbisfiled.a  _deps/sfml-build/lib/libvorbisencd.a  _deps/sfml-build/lib/libvorbisd.a  _deps/sfml-build/lib/libFLACd.a  _deps/sfml-build/lib/liboggd.a  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = LightYears\LightYearsGame.exe
-  TARGET_IMPLIB = LightYears\libLightYearsGame.dll.a
-  TARGET_PDB = LightYearsGame.exe.dbg
-  TARGET_SUPPORT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
-
-
-#############################################
-# Utility command for package
-
-build LightYears/CMakeFiles/package.util: CUSTOM_COMMAND LightYears/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackConfig.cmake"
-  DESC = Run CPack packaging tool...
-  pool = console
-  restat = 1
-
-build LightYears/package: phony LightYears/CMakeFiles/package.util
-
-
-#############################################
-# Utility command for package_source
-
-build LightYears/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
-  DESC = Run CPack packaging tool for source...
-  pool = console
-  restat = 1
-
-build LightYears/package_source: phony LightYears/CMakeFiles/package_source.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build LightYears/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build LightYears/edit_cache: phony LightYears/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build LightYears/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Software\C++\LightYears -BC:\Software\C++\LightYears\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build LightYears/rebuild_cache: phony LightYears/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build LightYears/list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build LightYears/CMakeFiles/install.util: CUSTOM_COMMAND LightYears/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build LightYears/install: phony LightYears/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/local
-
-build LightYears/CMakeFiles/install/local.util: CUSTOM_COMMAND LightYears/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build LightYears/install/local: phony LightYears/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install/strip
-
-build LightYears/CMakeFiles/install/strip.util: CUSTOM_COMMAND LightYears/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build LightYears/install/strip: phony LightYears/CMakeFiles/install/strip.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Software/C++/LightYears/CMakeLists.txt
-# =============================================================================
-
 
 #############################################
 # Utility command for package
@@ -5909,6 +5776,139 @@ build _deps/vorbis-build/lib/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps
 build _deps/vorbis-build/lib/install/strip: phony _deps/vorbis-build/lib/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Software/C++/LightYears/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LightYearsGame
+
+
+#############################################
+# Order-only phony target for LightYearsGame
+
+build cmake_object_order_depends_target_LightYearsGame: phony || cmake_object_order_depends_target_FLAC cmake_object_order_depends_target_freetype cmake_object_order_depends_target_harfbuzz cmake_object_order_depends_target_ogg cmake_object_order_depends_target_sfml-audio cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window cmake_object_order_depends_target_vorbis cmake_object_order_depends_target_vorbisenc cmake_object_order_depends_target_vorbisfile
+
+build LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj: CXX_COMPILER__LightYearsGame_unscanned_Debug C$:/Software/C++/LightYears/LightYears/src/main.cpp || cmake_object_order_depends_target_LightYearsGame
+  CONFIG = Debug
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
+  OBJECT_FILE_DIR = LightYears\CMakeFiles\LightYearsGame.dir\src
+  TARGET_SUPPORT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LightYearsGame
+
+
+#############################################
+# Link the executable LightYears\LightYearsGame.exe
+
+build LightYears/LightYearsGame.exe: CXX_EXECUTABLE_LINKER__LightYearsGame_Debug LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-audio-s-d.a _deps/sfml-build/lib/libharfbuzzd.a _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libvorbisfiled.a _deps/sfml-build/lib/libvorbisencd.a _deps/sfml-build/lib/libvorbisd.a _deps/sfml-build/lib/libFLACd.a _deps/sfml-build/lib/liboggd.a || _deps/sfml-build/lib/libFLACd.a _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libharfbuzzd.a _deps/sfml-build/lib/liboggd.a _deps/sfml-build/lib/libsfml-audio-s-d.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libvorbisd.a _deps/sfml-build/lib/libvorbisencd.a _deps/sfml-build/lib/libvorbisfiled.a
+  CONFIG = Debug
+  FLAGS = -g
+  LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  _deps/sfml-build/lib/libsfml-audio-s-d.a  -lopengl32  -lgdi32  _deps/sfml-build/lib/libharfbuzzd.a  _deps/sfml-build/lib/libfreetyped.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lwinmm  _deps/sfml-build/lib/libvorbisfiled.a  _deps/sfml-build/lib/libvorbisencd.a  _deps/sfml-build/lib/libvorbisd.a  _deps/sfml-build/lib/libFLACd.a  _deps/sfml-build/lib/liboggd.a  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/lib/libsfml-graphics-s-d.a C:/Software/C++/LightYears/cmake-build-debug/LightYears && cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/lib/libsfml-window-s-d.a C:/Software/C++/LightYears/cmake-build-debug/LightYears && cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/lib/libsfml-audio-s-d.a C:/Software/C++/LightYears/cmake-build-debug/LightYears && cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different C:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/lib/libsfml-system-s-d.a C:/Software/C++/LightYears/cmake-build-debug/LightYears"
+  PRE_LINK = cd .
+  TARGET_FILE = LightYears\LightYearsGame.exe
+  TARGET_IMPLIB = LightYears\libLightYearsGame.dll.a
+  TARGET_PDB = LightYearsGame.exe.dbg
+  TARGET_SUPPORT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
+
+
+#############################################
+# Utility command for package
+
+build LightYears/CMakeFiles/package.util: CUSTOM_COMMAND LightYears/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build LightYears/package: phony LightYears/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build LightYears/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build LightYears/package_source: phony LightYears/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build LightYears/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build LightYears/edit_cache: phony LightYears/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build LightYears/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Software\C++\LightYears -BC:\Software\C++\LightYears\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build LightYears/rebuild_cache: phony LightYears/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build LightYears/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build LightYears/CMakeFiles/install.util: CUSTOM_COMMAND LightYears/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build LightYears/install: phony LightYears/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build LightYears/CMakeFiles/install/local.util: CUSTOM_COMMAND LightYears/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build LightYears/install/local: phony LightYears/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build LightYears/CMakeFiles/install/strip.util: CUSTOM_COMMAND LightYears/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Software\C++\LightYears\cmake-build-debug\LightYears && "C:\Program Files\JetBrains\CLion 2026.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build LightYears/install/strip: phony LightYears/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
 build Continuous: phony _deps/sheenbidi-build/Continuous
@@ -6049,7 +6049,7 @@ build vorbisfile: phony _deps/sfml-build/lib/libvorbisfiled.a
 #############################################
 # Folder: C:/Software/C++/LightYears/cmake-build-debug
 
-build codegen: phony LightYears/codegen _deps/sfml-build/codegen
+build codegen: phony _deps/sfml-build/codegen LightYears/codegen
 
 # =============================================================================
 
@@ -6231,7 +6231,7 @@ build _deps/vorbis-build/lib/codegen: phony
 #############################################
 # Folder: C:/Software/C++/LightYears/cmake-build-debug
 
-build all: phony LightYears/all _deps/sfml-build/all
+build all: phony _deps/sfml-build/all LightYears/all
 
 # =============================================================================
 
@@ -6415,7 +6415,7 @@ build _deps/vorbis-build/lib/all: phony _deps/sfml-build/lib/libvorbisd.a _deps/
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Software/C++/LightYears/cmake-build-debug/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/LightYears/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/System/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Main/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Window/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Network/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/framework/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/include/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/library/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/pkgconfig/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/libssh2-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/libssh2-build/src/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/freetype-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/harfbuzz-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sheenbidi-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Audio/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/ogg-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/src/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/src/libFLAC/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/vorbis-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/vorbis-build/lib/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sheenbidi-build/CTestTestfile.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/CTestTestfile.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/src/CTestTestfile.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/src/libFLAC/CTestTestfile.cmake: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeParseArguments.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePrintHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePushCheckState.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CTestTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CTestUseLaunchers.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckFunctionExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/DartConfiguration.tcl.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/PatchInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/RepositoryInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/UpdateInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/download.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/extractfile.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/gitclone.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/gitupdate.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/stepscript.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FeatureSummary.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent/package-config-version.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent/package-config.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPkgConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/TestBigEndian.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Templates/CPackConfig.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Templates/CTestScript.cmake.in C$:/Software/C++/LightYears/CMakeLists.txt C$:/Software/C++/LightYears/LightYears/CMakeLists.txt CMakeCache.txt CMakeFiles/4.2.2/CMakeCCompiler.cmake CMakeFiles/4.2.2/CMakeCXXCompiler.cmake CMakeFiles/4.2.2/CMakeRCCompiler.cmake CMakeFiles/4.2.2/CMakeSystem.cmake CMakeFiles/pkgRedirects/mbedtls-config-version.cmake CMakeFiles/pkgRedirects/mbedtls-config.cmake _deps/flac-src/CMakeLists.txt _deps/flac-src/cmake/CheckA64NEON.cmake _deps/flac-src/cmake/CheckCPUArch.cmake _deps/flac-src/cmake/UseSystemExtensions.cmake _deps/flac-src/config.cmake.h.in _deps/flac-src/flac-config.cmake.in _deps/flac-src/src/CMakeLists.txt _deps/flac-src/src/libFLAC/CMakeLists.txt _deps/freetype-src/CMakeLists.txt _deps/harfbuzz-src/CMakeLists.txt _deps/libssh2-build/src/Makefile.inc.cmake _deps/libssh2-src/CMakeLists.txt _deps/libssh2-src/cmake/CheckFunctionExistsMayNeedLibrary.cmake _deps/libssh2-src/cmake/CheckNonblockingSocketSupport.cmake _deps/libssh2-src/cmake/PickyWarnings.cmake _deps/libssh2-src/cmake/libssh2-config.in.cmake _deps/libssh2-src/libssh2.pc.in _deps/libssh2-src/src/CMakeLists.txt _deps/libssh2-src/src/Makefile.inc _deps/libssh2-src/src/libssh2_config_cmake.h.in _deps/mbedtls-src/CMakeLists.txt _deps/mbedtls-src/cmake/MbedTLSConfig.cmake.in _deps/mbedtls-src/framework/CMakeLists.txt _deps/mbedtls-src/include/CMakeLists.txt _deps/mbedtls-src/library/CMakeLists.txt _deps/mbedtls-src/pkgconfig/CMakeLists.txt _deps/mbedtls-src/pkgconfig/JoinPaths.cmake _deps/mbedtls-src/pkgconfig/mbedcrypto.pc.in _deps/mbedtls-src/pkgconfig/mbedtls.pc.in _deps/mbedtls-src/pkgconfig/mbedx509.pc.in _deps/ogg-src/CMakeLists.txt _deps/ogg-src/cmake/CheckSizes.cmake _deps/ogg-src/cmake/OggConfig.cmake.in _deps/ogg-src/include/ogg/config_types.h.in _deps/ogg-src/ogg.pc.in _deps/sfml-src/CMakeLists.txt _deps/sfml-src/cmake/CompilerWarnings.cmake _deps/sfml-src/cmake/Config.cmake _deps/sfml-src/cmake/Macros.cmake _deps/sfml-src/cmake/Mesa3D.cmake _deps/sfml-src/cmake/SFMLConfig.cmake.in _deps/sfml-src/src/SFML/Audio/CMakeLists.txt _deps/sfml-src/src/SFML/Audio/Dependencies.cmake.in _deps/sfml-src/src/SFML/CMakeLists.txt _deps/sfml-src/src/SFML/Graphics/CMakeLists.txt _deps/sfml-src/src/SFML/Graphics/Dependencies.cmake.in _deps/sfml-src/src/SFML/Main/CMakeLists.txt _deps/sfml-src/src/SFML/Network/CMakeLists.txt _deps/sfml-src/src/SFML/Network/Dependencies.cmake.in _deps/sfml-src/src/SFML/System/CMakeLists.txt _deps/sfml-src/src/SFML/System/Dependencies.cmake.in _deps/sfml-src/src/SFML/Window/CMakeLists.txt _deps/sfml-src/src/SFML/Window/Dependencies.cmake.in _deps/sheenbidi-src/CMakeLists.txt _deps/vorbis-src/CMakeLists.txt _deps/vorbis-src/cmake/VorbisConfig.cmake.in _deps/vorbis-src/lib/CMakeLists.txt _deps/vorbis-src/vorbis.pc.in _deps/vorbis-src/vorbisenc.pc.in _deps/vorbis-src/vorbisfile.pc.in
+build build.ninja C$:/Software/C++/LightYears/cmake-build-debug/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/System/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Main/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Window/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Network/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/framework/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/include/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/library/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/mbedtls-build/pkgconfig/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/libssh2-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/libssh2-build/src/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/freetype-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/harfbuzz-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sheenbidi-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/Audio/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/ogg-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/src/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/src/libFLAC/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/vorbis-build/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/vorbis-build/lib/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/LightYears/cmake_install.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/sheenbidi-build/CTestTestfile.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/CTestTestfile.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/src/CTestTestfile.cmake C$:/Software/C++/LightYears/cmake-build-debug/_deps/flac-build/src/libFLAC/CTestTestfile.cmake: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeParseArguments.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePrintHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePushCheckState.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CTestTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CTestUseLaunchers.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckFunctionExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/DartConfiguration.tcl.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/PatchInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/RepositoryInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/UpdateInfo.txt.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/download.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/extractfile.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/gitclone.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/gitupdate.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/stepscript.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FeatureSummary.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent/package-config-version.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent/package-config.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPkgConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/TestBigEndian.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Templates/CPackConfig.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2026.1.2/bin/cmake/win/x64/share/cmake-4.2/Templates/CTestScript.cmake.in C$:/Software/C++/LightYears/CMakeLists.txt C$:/Software/C++/LightYears/LightYears/CMakeLists.txt CMakeCache.txt CMakeFiles/4.2.2/CMakeCCompiler.cmake CMakeFiles/4.2.2/CMakeCXXCompiler.cmake CMakeFiles/4.2.2/CMakeRCCompiler.cmake CMakeFiles/4.2.2/CMakeSystem.cmake CMakeFiles/pkgRedirects/mbedtls-config-version.cmake CMakeFiles/pkgRedirects/mbedtls-config.cmake _deps/flac-src/CMakeLists.txt _deps/flac-src/cmake/CheckA64NEON.cmake _deps/flac-src/cmake/CheckCPUArch.cmake _deps/flac-src/cmake/UseSystemExtensions.cmake _deps/flac-src/config.cmake.h.in _deps/flac-src/flac-config.cmake.in _deps/flac-src/src/CMakeLists.txt _deps/flac-src/src/libFLAC/CMakeLists.txt _deps/freetype-src/CMakeLists.txt _deps/harfbuzz-src/CMakeLists.txt _deps/libssh2-build/src/Makefile.inc.cmake _deps/libssh2-src/CMakeLists.txt _deps/libssh2-src/cmake/CheckFunctionExistsMayNeedLibrary.cmake _deps/libssh2-src/cmake/CheckNonblockingSocketSupport.cmake _deps/libssh2-src/cmake/PickyWarnings.cmake _deps/libssh2-src/cmake/libssh2-config.in.cmake _deps/libssh2-src/libssh2.pc.in _deps/libssh2-src/src/CMakeLists.txt _deps/libssh2-src/src/Makefile.inc _deps/libssh2-src/src/libssh2_config_cmake.h.in _deps/mbedtls-src/CMakeLists.txt _deps/mbedtls-src/cmake/MbedTLSConfig.cmake.in _deps/mbedtls-src/framework/CMakeLists.txt _deps/mbedtls-src/include/CMakeLists.txt _deps/mbedtls-src/library/CMakeLists.txt _deps/mbedtls-src/pkgconfig/CMakeLists.txt _deps/mbedtls-src/pkgconfig/JoinPaths.cmake _deps/mbedtls-src/pkgconfig/mbedcrypto.pc.in _deps/mbedtls-src/pkgconfig/mbedtls.pc.in _deps/mbedtls-src/pkgconfig/mbedx509.pc.in _deps/ogg-src/CMakeLists.txt _deps/ogg-src/cmake/CheckSizes.cmake _deps/ogg-src/cmake/OggConfig.cmake.in _deps/ogg-src/include/ogg/config_types.h.in _deps/ogg-src/ogg.pc.in _deps/sfml-src/CMakeLists.txt _deps/sfml-src/cmake/CompilerWarnings.cmake _deps/sfml-src/cmake/Config.cmake _deps/sfml-src/cmake/Macros.cmake _deps/sfml-src/cmake/Mesa3D.cmake _deps/sfml-src/cmake/SFMLConfig.cmake.in _deps/sfml-src/src/SFML/Audio/CMakeLists.txt _deps/sfml-src/src/SFML/Audio/Dependencies.cmake.in _deps/sfml-src/src/SFML/CMakeLists.txt _deps/sfml-src/src/SFML/Graphics/CMakeLists.txt _deps/sfml-src/src/SFML/Graphics/Dependencies.cmake.in _deps/sfml-src/src/SFML/Main/CMakeLists.txt _deps/sfml-src/src/SFML/Network/CMakeLists.txt _deps/sfml-src/src/SFML/Network/Dependencies.cmake.in _deps/sfml-src/src/SFML/System/CMakeLists.txt _deps/sfml-src/src/SFML/System/Dependencies.cmake.in _deps/sfml-src/src/SFML/Window/CMakeLists.txt _deps/sfml-src/src/SFML/Window/Dependencies.cmake.in _deps/sheenbidi-src/CMakeLists.txt _deps/vorbis-src/CMakeLists.txt _deps/vorbis-src/cmake/VorbisConfig.cmake.in _deps/vorbis-src/lib/CMakeLists.txt _deps/vorbis-src/vorbis.pc.in _deps/vorbis-src/vorbisenc.pc.in _deps/vorbis-src/vorbisfile.pc.in
   pool = console
 
 

@@ -1,6 +1,6 @@
 # ninja log v7
-10	279	8018717328392156	LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj	8b80cf9612010745
-281	385	8018717331100778	LightYears/LightYearsGame.exe	b7cd37d55c3ebf8f
+11126	12543	8018723010351348	LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj	17eb5fa8d3724ff3
+17	1253	8018734061226263	LightYears/LightYearsGame.exe	252c1e04cd180ee9
 14	568	8018722899236155	_deps/ogg-build/CMakeFiles/ogg.dir/Unity/unity_0_c.c.obj	a2b76a5fcae3e916
 24	586	8018722899321330	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj	599a7f1f0f5ec304
 38	605	8018722899461599	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj	6d7e0703cbea7821
@@ -117,7 +117,6 @@
 9645	12364	8018722995536414	_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj	12eefab9613a85cb
 10215	12367	8018723001235934	_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj	c7ff2539edc678f8
 10543	12438	8018723004519124	_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj	509d59c975886303
-11126	12543	8018723010351348	LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj	17eb5fa8d3724ff3
 45	12707	8018722899546730	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj	eafb041a0664bec3
 12707	13080	8018723026160003	_deps/sfml-build/lib/libsfml-system-s-d.a	241a73603bd03751
 13080	13396	8018723029885721	_deps/sfml-build/lib/libsfml-window-s-d.a	85f54a0e0cb0ea7c
@@ -126,4 +125,4 @@
 1745	31194	8018722916546071	_deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/src/harfbuzz.cc.obj	17dd469d6e927c46
 31195	69676	8018723211038472	_deps/sfml-build/lib/libharfbuzzd.a	8940dc90671f0983
 69676	70084	8018723595857932	_deps/sfml-build/lib/libsfml-graphics-s-d.a	291f038391eb0fe2
-70084	71036	8018723599935355	LightYears/LightYearsGame.exe	ef2c0f41ce5cc741
+19	1113	8018737447242776	LightYears/LightYearsGame.exe	e1a5f2b90444251c
