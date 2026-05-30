@@ -5794,9 +5794,19 @@ build LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj: CXX_COMPILER__L
   DEFINES = -DSFML_STATIC
   DEP_FILE = LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-src/include
+  INCLUDES = -IC:/Software/C++/LightYears/LightYears/include -IC:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-src/include
   OBJECT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
   OBJECT_FILE_DIR = LightYears\CMakeFiles\LightYearsGame.dir\src
+  TARGET_SUPPORT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
+
+build LightYears/CMakeFiles/LightYearsGame.dir/src/framework/Application.cpp.obj: CXX_COMPILER__LightYearsGame_unscanned_Debug C$:/Software/C++/LightYears/LightYears/src/framework/Application.cpp || cmake_object_order_depends_target_LightYearsGame
+  CONFIG = Debug
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = LightYears\CMakeFiles\LightYearsGame.dir\src\framework\Application.cpp.obj.d
+  FLAGS = -g -std=c++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Software/C++/LightYears/LightYears/include -IC:/Software/C++/LightYears/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
+  OBJECT_FILE_DIR = LightYears\CMakeFiles\LightYearsGame.dir\src\framework
   TARGET_SUPPORT_DIR = LightYears\CMakeFiles\LightYearsGame.dir
 
 
@@ -5807,7 +5817,7 @@ build LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj: CXX_COMPILER__L
 #############################################
 # Link the executable LightYears\LightYearsGame.exe
 
-build LightYears/LightYearsGame.exe: CXX_EXECUTABLE_LINKER__LightYearsGame_Debug LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-audio-s-d.a _deps/sfml-build/lib/libharfbuzzd.a _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libvorbisfiled.a _deps/sfml-build/lib/libvorbisencd.a _deps/sfml-build/lib/libvorbisd.a _deps/sfml-build/lib/libFLACd.a _deps/sfml-build/lib/liboggd.a || _deps/sfml-build/lib/libFLACd.a _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libharfbuzzd.a _deps/sfml-build/lib/liboggd.a _deps/sfml-build/lib/libsfml-audio-s-d.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libvorbisd.a _deps/sfml-build/lib/libvorbisencd.a _deps/sfml-build/lib/libvorbisfiled.a
+build LightYears/LightYearsGame.exe: CXX_EXECUTABLE_LINKER__LightYearsGame_Debug LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj LightYears/CMakeFiles/LightYearsGame.dir/src/framework/Application.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-audio-s-d.a _deps/sfml-build/lib/libharfbuzzd.a _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libvorbisfiled.a _deps/sfml-build/lib/libvorbisencd.a _deps/sfml-build/lib/libvorbisd.a _deps/sfml-build/lib/libFLACd.a _deps/sfml-build/lib/liboggd.a || _deps/sfml-build/lib/libFLACd.a _deps/sfml-build/lib/libfreetyped.a _deps/sfml-build/lib/libharfbuzzd.a _deps/sfml-build/lib/liboggd.a _deps/sfml-build/lib/libsfml-audio-s-d.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libvorbisd.a _deps/sfml-build/lib/libvorbisencd.a _deps/sfml-build/lib/libvorbisfiled.a
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  _deps/sfml-build/lib/libsfml-audio-s-d.a  -lopengl32  -lgdi32  _deps/sfml-build/lib/libharfbuzzd.a  _deps/sfml-build/lib/libfreetyped.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lwinmm  _deps/sfml-build/lib/libvorbisfiled.a  _deps/sfml-build/lib/libvorbisencd.a  _deps/sfml-build/lib/libvorbisd.a  _deps/sfml-build/lib/libFLACd.a  _deps/sfml-build/lib/liboggd.a  -lm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

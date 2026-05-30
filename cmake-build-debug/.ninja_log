@@ -1,6 +1,6 @@
 # ninja log v7
-11126	12543	8018723010351348	LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj	17eb5fa8d3724ff3
-17	1253	8018734061226263	LightYears/LightYearsGame.exe	252c1e04cd180ee9
+26	923	8018748899513359	LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj	17eb5fa8d3724ff3
+923	2062	8018748908482887	LightYears/LightYearsGame.exe	e1a5f2b90444251c
 14	568	8018722899236155	_deps/ogg-build/CMakeFiles/ogg.dir/Unity/unity_0_c.c.obj	a2b76a5fcae3e916
 24	586	8018722899321330	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj	599a7f1f0f5ec304
 38	605	8018722899461599	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj	6d7e0703cbea7821
@@ -125,4 +125,6 @@
 1745	31194	8018722916546071	_deps/harfbuzz-build/CMakeFiles/harfbuzz.dir/src/harfbuzz.cc.obj	17dd469d6e927c46
 31195	69676	8018723211038472	_deps/sfml-build/lib/libharfbuzzd.a	8940dc90671f0983
 69676	70084	8018723595857932	_deps/sfml-build/lib/libsfml-graphics-s-d.a	291f038391eb0fe2
-19	1113	8018737447242776	LightYears/LightYearsGame.exe	e1a5f2b90444251c
+35	902	8018762078416072	LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj	c6aacab5240d280b
+50	937	8018762078561377	LightYears/CMakeFiles/LightYearsGame.dir/src/framework/Application.cpp.obj	32d9f9469f909e76
+938	2254	8018762087432192	LightYears/LightYearsGame.exe	971e131dca62f054
